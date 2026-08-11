@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <script>window.__corvusAppsPromise=fetch('https://corvusdevs.github.io/apps.json',{cache:'default'}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Playhead: Katso, mitä mikä tahansa mediatiedosto sisältää Macissa ja iPhonessa</title>
+    <meta name="description" content="macOS- ja iOS-laitteille tarkoitettu mediatarkistaja, joka lukee tiedostoja, joita QuickTime ei pysty lukemaan. Matroska, todellinen bittisyvyys, Dolby Vision- ja HDR10-masterointitiedot, kappaleittaiset peittoalueet, valokuvien EXIF-tiedot sekä laitteistopohjaisen dekoodauksen tarkistus mitattuna omalla Mac-tietokoneellasi. 0,99 $, ei tilausta, mitään tietoja ei lähetetä laitteeltasi.">
+    <link rel="canonical" href="https://corvusdevs.github.io/Playhead/i18n/fi/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://corvusdevs.github.io/Playhead/i18n/fi/">
+    <meta property="og:title" content="Playhead: Katso, mitä mikä tahansa mediatiedosto sisältää">
+    <meta property="og:description" content="Mac- ja iPhone-laitteille tarkoitettu mediatarkistaja, joka lukee tiedostoja, joita QuickTime ei pysty lukemaan. Matroska, HDR-masterointitiedot, kappaleittaiset raidat, EXIF-tiedot sekä laitteistopohjaisen dekoodauksen tarkistus mitattuna omalla Mac-tietokoneellasi.">
+    <meta property="og:image" content="https://corvusdevs.github.io/Playhead/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="fi">
+    <meta property="og:site_name" content="CorvusDevs">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Playhead: Katso, mitä mikä tahansa mediatiedosto sisältää">
+    <meta name="twitter:description" content="Mac- ja iPhone-laitteille tarkoitettu mediatarkistaja. Lukee Matroska-tiedostoja, HDR-masterointitietoja, kappaleittaisia raitoja ja EXIF-tietoja. 0,99 $, mitään tietoja ei lähetetä laitteeltasi.">
+    <meta name="twitter:image" content="https://corvusdevs.github.io/Playhead/og-image.png">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="mediainfo-vaihtoehto Macille, Media Inspector macOS, MKV-metatietojen katseluohjelma, Matroska-tiedot Macille, HDR10- ja Dolby Vision -metatiedot, EXIF-katseluohjelma Macille, videokoodekkien tarkistaja, bittinopeuden analysointiohjelma Macille, QuickTime ei voi avata MKV-tiedostoja">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+    <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+    <link rel="alternate" hreflang="en" href="https://corvusdevs.github.io/Playhead/">
+    <link rel="alternate" hreflang="ar" href="https://corvusdevs.github.io/Playhead/i18n/ar/">
+    <link rel="alternate" hreflang="ca" href="https://corvusdevs.github.io/Playhead/i18n/ca/">
+    <link rel="alternate" hreflang="cs" href="https://corvusdevs.github.io/Playhead/i18n/cs/">
+    <link rel="alternate" hreflang="da" href="https://corvusdevs.github.io/Playhead/i18n/da/">
+    <link rel="alternate" hreflang="de" href="https://corvusdevs.github.io/Playhead/i18n/de/">
+    <link rel="alternate" hreflang="el" href="https://corvusdevs.github.io/Playhead/i18n/el/">
+    <link rel="alternate" hreflang="es" href="https://corvusdevs.github.io/Playhead/i18n/es/">
+    <link rel="alternate" hreflang="es-MX" href="https://corvusdevs.github.io/Playhead/i18n/es-MX/">
+    <link rel="alternate" hreflang="fi" href="https://corvusdevs.github.io/Playhead/i18n/fi/">
+    <link rel="alternate" hreflang="fr" href="https://corvusdevs.github.io/Playhead/i18n/fr/">
+    <link rel="alternate" hreflang="fr-CA" href="https://corvusdevs.github.io/Playhead/i18n/fr-CA/">
+    <link rel="alternate" hreflang="he" href="https://corvusdevs.github.io/Playhead/i18n/he/">
+    <link rel="alternate" hreflang="hi" href="https://corvusdevs.github.io/Playhead/i18n/hi/">
+    <link rel="alternate" hreflang="hr" href="https://corvusdevs.github.io/Playhead/i18n/hr/">
+    <link rel="alternate" hreflang="hu" href="https://corvusdevs.github.io/Playhead/i18n/hu/">
+    <link rel="alternate" hreflang="id" href="https://corvusdevs.github.io/Playhead/i18n/id/">
+    <link rel="alternate" hreflang="it" href="https://corvusdevs.github.io/Playhead/i18n/it/">
+    <link rel="alternate" hreflang="ja" href="https://corvusdevs.github.io/Playhead/i18n/ja/">
+    <link rel="alternate" hreflang="ko" href="https://corvusdevs.github.io/Playhead/i18n/ko/">
+    <link rel="alternate" hreflang="ms" href="https://corvusdevs.github.io/Playhead/i18n/ms/">
+    <link rel="alternate" hreflang="nb" href="https://corvusdevs.github.io/Playhead/i18n/nb/">
+    <link rel="alternate" hreflang="nl" href="https://corvusdevs.github.io/Playhead/i18n/nl/">
+    <link rel="alternate" hreflang="pl" href="https://corvusdevs.github.io/Playhead/i18n/pl/">
+    <link rel="alternate" hreflang="pt-BR" href="https://corvusdevs.github.io/Playhead/i18n/pt-BR/">
+    <link rel="alternate" hreflang="pt-PT" href="https://corvusdevs.github.io/Playhead/i18n/pt-PT/">
+    <link rel="alternate" hreflang="ro" href="https://corvusdevs.github.io/Playhead/i18n/ro/">
+    <link rel="alternate" hreflang="ru" href="https://corvusdevs.github.io/Playhead/i18n/ru/">
+    <link rel="alternate" hreflang="sk" href="https://corvusdevs.github.io/Playhead/i18n/sk/">
+    <link rel="alternate" hreflang="sv" href="https://corvusdevs.github.io/Playhead/i18n/sv/">
+    <link rel="alternate" hreflang="th" href="https://corvusdevs.github.io/Playhead/i18n/th/">
+    <link rel="alternate" hreflang="tr" href="https://corvusdevs.github.io/Playhead/i18n/tr/">
+    <link rel="alternate" hreflang="uk" href="https://corvusdevs.github.io/Playhead/i18n/uk/">
+    <link rel="alternate" hreflang="vi" href="https://corvusdevs.github.io/Playhead/i18n/vi/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://corvusdevs.github.io/Playhead/i18n/zh-Hans/">
+    <link rel="alternate" hreflang="zh-Hant" href="https://corvusdevs.github.io/Playhead/i18n/zh-Hant/">
+    <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/Playhead/">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Playhead", "operatingSystem": "macOS 14, iOS 17", "applicationCategory": "MultimediaApplication", "description": "macOS- ja iOS-laitteille tarkoitettu mediatarkistaja, joka lukee tiedostoja, joita QuickTime ei pysty lukemaan. Matroska, todellinen bittisyvyys, Dolby Vision- ja HDR10-masterointitiedot, kappaleittaiset peittoalueet, valokuvien EXIF-tiedot sekä laitteistopohjaisen dekoodauksen tarkistus mitattuna omalla Mac-tietokoneellasi. 0,99 $, ei tilausta, mitään tietoja ei lähetetä laitteeltasi.", "url": "https://corvusdevs.github.io/Playhead/i18n/fi/", "inLanguage": "fi", "offers": {"@type": "Offer", "price": "0.99", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "CorvusDevs", "url": "https://corvusdevs.github.io/"}}</script>
+    <style>
+        /* ac-no-horizontal-scroll v1 */
+        html, body { overflow-x: clip; max-width: 100%; }
+        img, video, iframe { max-width: 100%; height: auto; }
+        pre, table { max-width: 100%; overflow-x: auto; }
+
+        :root {
+            --bg: #0B0D12; --surface: #14171F; --surface-2: #1B1F2A; --border: #272C39;
+            --text: #F2F4F8; --text-secondary: #8D95A6; --accent: #0A84FF; --accent-light: #4DA3FF;
+            --accent-dim: rgba(10, 132, 255, 0.12);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.6;
+            -webkit-font-smoothing: antialiased; min-height: 100vh;
+        }
+        a { color: inherit; }
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 16px 32px;
+            display: flex; justify-content: space-between; align-items: center;
+            background: rgba(11, 13, 18, 0.8);
+            backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+        }
+        .nav-brand {
+            font-size: 18px; font-weight: 700; color: var(--text); text-decoration: none;
+            letter-spacing: -0.3px; display: flex; align-items: center; gap: 10px;
+        }
+        .nav-brand img { width: 34px; height: 34px; border-radius: 9px; display: block; }
+        .nav-brand .wordmark { display: inline; }
+        .nav-brand span { color: var(--accent-light); }
+        .nav-right { display: flex; align-items: center; gap: 14px; }
+        .nav-cta {
+            font-size: 14px; font-weight: 600; color: #fff; background: var(--accent);
+            padding: 8px 18px; border-radius: 10px; text-decoration: none; transition: background 0.2s;
+        }
+        .nav-cta:hover { background: var(--accent-light); }
+        .shot { width: 100%; border-radius: 14px; border: 1px solid var(--border); display: block; }
+        .shot-caption { font-size: 14px; color: var(--text-secondary); margin-top: 12px; text-align: center; }
+        .split { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; align-items: center; }
+        @media (max-width: 820px) { .split { grid-template-columns: 1fr; } }
+        .lede { font-size: 17px; color: var(--text-secondary); margin-bottom: 14px; }
+        .privacy { border: 1px solid var(--border); background: var(--accent-dim);
+                   border-radius: 14px; padding: 22px 24px; }
+
+        .container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+        .block { padding: 96px 0 0; }
+        .section-label {
+            text-align: center; font-size: 13px; font-weight: 700; letter-spacing: 2px;
+            text-transform: uppercase; color: var(--accent-light); margin-bottom: 14px;
+        }
+        .section-title {
+            text-align: center; font-size: 40px; font-weight: 800; letter-spacing: -1.2px;
+            line-height: 1.15; margin-bottom: 34px;
+        }
+        .hero { text-align: center; padding: 148px 24px 0; }
+        .hero-icon {
+            width: 168px; height: 168px; border-radius: 38px; display: block; margin: 0 auto 26px;
+            filter: drop-shadow(0 20px 60px rgba(10, 132, 255, 0.35));
+        }
+        .hero h1 {
+            font-size: 62px; font-weight: 800; letter-spacing: -3px; line-height: 1.05;
+            margin-bottom: 18px;
+            background: linear-gradient(135deg, #ffffff 0%, var(--accent-light) 100%);
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent; color: transparent;
+        }
+        .hero .subtitle {
+            font-size: 19px; color: var(--text-secondary); max-width: 620px;
+            margin: 0 auto 34px; font-weight: 400;
+        }
+        .hero-cta {
+            display: inline-flex; align-items: center; gap: 10px; padding: 16px 36px;
+            background: var(--accent); color: #fff; font-size: 16px; font-weight: 600;
+            border-radius: 14px; text-decoration: none; transition: background 0.2s, transform 0.2s;
+            box-shadow: 0 10px 30px rgba(10, 132, 255, 0.35);
+        }
+        .hero-cta:hover { background: var(--accent-light); transform: translateY(-2px); }
+        .hero-free { display: block; font-size: 14px; color: var(--text-secondary); margin-top: 16px; }
+
+        .features-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+        .feature-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+            padding: 24px 22px;
+        }
+        .feature-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+        .feature-card p { font-size: 15px; color: var(--text-secondary); }
+        .feature-icon {
+            width: 42px; height: 42px; border-radius: 12px; background: var(--accent-dim);
+            color: var(--accent-light); display: flex; align-items: center; justify-content: center;
+            font-size: 20px; margin-bottom: 14px;
+        }
+
+        .faq { max-width: 780px; margin: 0 auto; }
+        .faq details {
+            border: 1px solid var(--border); border-radius: 14px; background: var(--surface);
+            padding: 18px 22px; margin-bottom: 12px;
+        }
+        .faq summary {
+            font-size: 17px; font-weight: 600; cursor: pointer; list-style: none;
+        }
+        .faq summary::-webkit-details-marker { display: none; }
+        .faq summary::after { content: " +"; color: var(--accent-light); }
+        .faq details[open] summary::after { content: " \2212"; }
+        .faq p { font-size: 15px; color: var(--text-secondary); margin-top: 12px; }
+
+        .cta-final { padding: 110px 0 96px; text-align: center; }
+        footer { border-top: 1px solid var(--border); margin-top: 80px; padding: 34px 0 46px; }
+        .foot-links {
+            display: flex; gap: 26px; justify-content: center; flex-wrap: wrap;
+            font-size: 14px; color: var(--text-secondary);
+        }
+        .foot-links a { text-decoration: none; }
+        .foot-links a:hover { color: var(--accent-light); }
+
+        @media (max-width: 820px) {
+            nav { padding: 12px 18px; }
+            .hero { padding-top: 116px; }
+            .hero h1 { font-size: 40px; letter-spacing: -1.6px; }
+            .hero-icon { width: 120px; height: 120px; border-radius: 28px; }
+            .section-title { font-size: 29px; }
+            .block { padding-top: 68px; }
+        }
+
+        .lang-wrap { position: relative; }
+        .lang-btn { background: none; border: 0.5px solid var(--border); color: var(--text-secondary);
+                    font-size: 13px; padding: 7px 12px; border-radius: 10px; cursor: pointer;
+                    font-family: inherit; }
+        .lang-btn:hover { color: var(--text); border-color: var(--text-secondary); }
+        .lang-menu { position: absolute; top: 42px; right: 0; background: var(--surface);
+                     border: 1px solid var(--border); border-radius: 12px; padding: 6px;
+                     display: none; max-height: 60vh; overflow-y: auto; min-width: 190px; z-index: 200; }
+        .lang-menu.open { display: block; }
+        .lang-menu a { display: flex; align-items: center; gap: 9px; padding: 7px 10px;
+                       font-size: 14px; text-decoration: none; border-radius: 8px; color: var(--text-secondary); }
+        .lang-menu a:hover { background: var(--surface-2); color: var(--text); }
+        .lang-menu a.active { color: var(--accent-light); }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="https://corvusdevs.github.io/" class="nav-brand"><img src="../../icon.png" alt=""><span class="wordmark">Play<span>head</span></span></a>
+    <div class="nav-right"><div class="lang-wrap"><button class="lang-btn" aria-label="Language" onclick="var m=this.nextElementSibling;m.classList.toggle('open');event.stopPropagation();">文A Suomi</button><div class="lang-menu"><a href="../../" class=""><img src="../../flags/en.svg" alt="" width="20" height="14" loading="lazy">English</a><a href="../../i18n/ar/" class=""><img src="../../flags/ar.svg" alt="" width="20" height="14" loading="lazy">العربية</a><a href="../../i18n/ca/" class=""><img src="../../flags/ca.svg" alt="" width="20" height="14" loading="lazy">Català</a><a href="../../i18n/cs/" class=""><img src="../../flags/cs.svg" alt="" width="20" height="14" loading="lazy">Čeština</a><a href="../../i18n/da/" class=""><img src="../../flags/da.svg" alt="" width="20" height="14" loading="lazy">Dansk</a><a href="../../i18n/de/" class=""><img src="../../flags/de.svg" alt="" width="20" height="14" loading="lazy">Deutsch</a><a href="../../i18n/el/" class=""><img src="../../flags/el.svg" alt="" width="20" height="14" loading="lazy">Ελληνικά</a><a href="../../i18n/es/" class=""><img src="../../flags/es.svg" alt="" width="20" height="14" loading="lazy">Español</a><a href="../../i18n/es-MX/" class=""><img src="../../flags/es.svg" alt="" width="20" height="14" loading="lazy">Español (MX)</a><a href="../../i18n/fi/" class="active"><img src="../../flags/fi.svg" alt="" width="20" height="14" loading="lazy">Suomi</a><a href="../../i18n/fr/" class=""><img src="../../flags/fr.svg" alt="" width="20" height="14" loading="lazy">Français</a><a href="../../i18n/fr-CA/" class=""><img src="../../flags/fr.svg" alt="" width="20" height="14" loading="lazy">Français (CA)</a><a href="../../i18n/he/" class=""><img src="../../flags/he.svg" alt="" width="20" height="14" loading="lazy">עברית</a><a href="../../i18n/hi/" class=""><img src="../../flags/hi.svg" alt="" width="20" height="14" loading="lazy">हिन्दी</a><a href="../../i18n/hr/" class=""><img src="../../flags/hr.svg" alt="" width="20" height="14" loading="lazy">Hrvatski</a><a href="../../i18n/hu/" class=""><img src="../../flags/hu.svg" alt="" width="20" height="14" loading="lazy">Magyar</a><a href="../../i18n/id/" class=""><img src="../../flags/id.svg" alt="" width="20" height="14" loading="lazy">Indonesia</a><a href="../../i18n/it/" class=""><img src="../../flags/it.svg" alt="" width="20" height="14" loading="lazy">Italiano</a><a href="../../i18n/ja/" class=""><img src="../../flags/ja.svg" alt="" width="20" height="14" loading="lazy">日本語</a><a href="../../i18n/ko/" class=""><img src="../../flags/ko.svg" alt="" width="20" height="14" loading="lazy">한국어</a><a href="../../i18n/ms/" class=""><img src="../../flags/ms.svg" alt="" width="20" height="14" loading="lazy">Melayu</a><a href="../../i18n/nb/" class=""><img src="../../flags/nb.svg" alt="" width="20" height="14" loading="lazy">Norsk</a><a href="../../i18n/nl/" class=""><img src="../../flags/nl.svg" alt="" width="20" height="14" loading="lazy">Nederlands</a><a href="../../i18n/pl/" class=""><img src="../../flags/pl.svg" alt="" width="20" height="14" loading="lazy">Polski</a><a href="../../i18n/pt-BR/" class=""><img src="../../flags/pt.svg" alt="" width="20" height="14" loading="lazy">Português (BR)</a><a href="../../i18n/pt-PT/" class=""><img src="../../flags/pt.svg" alt="" width="20" height="14" loading="lazy">Português</a><a href="../../i18n/ro/" class=""><img src="../../flags/ro.svg" alt="" width="20" height="14" loading="lazy">Română</a><a href="../../i18n/ru/" class=""><img src="../../flags/ru.svg" alt="" width="20" height="14" loading="lazy">Русский</a><a href="../../i18n/sk/" class=""><img src="../../flags/sk.svg" alt="" width="20" height="14" loading="lazy">Slovenčina</a><a href="../../i18n/sv/" class=""><img src="../../flags/sv.svg" alt="" width="20" height="14" loading="lazy">Svenska</a><a href="../../i18n/th/" class=""><img src="../../flags/th.svg" alt="" width="20" height="14" loading="lazy">ไทย</a><a href="../../i18n/tr/" class=""><img src="../../flags/tr.svg" alt="" width="20" height="14" loading="lazy">Türkçe</a><a href="../../i18n/uk/" class=""><img src="../../flags/uk.svg" alt="" width="20" height="14" loading="lazy">Українська</a><a href="../../i18n/vi/" class=""><img src="../../flags/vi.svg" alt="" width="20" height="14" loading="lazy">Tiếng Việt</a><a href="../../i18n/zh-Hans/" class=""><img src="../../flags/zh.svg" alt="" width="20" height="14" loading="lazy">简体中文</a><a href="../../i18n/zh-Hant/" class=""><img src="../../flags/zh.svg" alt="" width="20" height="14" loading="lazy">繁體中文</a></div></div>
+        <a href="#buy" class="nav-cta">Hanki Playhead</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <img src="../../icon.png" alt="Playhead app icon" class="hero-icon" width="168" height="168">
+    <h1>Katso, mitä sisällä on</h1>
+    <p class="subtitle">Mac- ja iPhone-laitteille tarkoitettu mediatarkistaja, joka lukee tiedostot, joita QuickTime ei avaa, ja kertoo sitten, mitä ne tarkoittavat.</p>
+    <a href="#buy" class="hero-cta">Hanki Playhead, $0.99</a>
+    <span class="hero-free">macOS 14 tai uudempi, iOS 17 tai uudempi. Yksi maksu, ei tilausta.</span>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">Ongelma</div>
+        <h2 class="section-title">Mac-tietokoneesi ei voi avata puolta tiedostoistasi</h2>
+        <div class="split">
+            <div>
+                <p class="lede">Kun painat välilyöntiä Matroska-tiedoston päällä, Finder ei reagoi mitenkään. QuickTime hylkää sen suoraan. Ne työkalut, jotka pystyvät lukemaan sen, palauttavat kolmesataa kenttää ja jättävät sinun tehtäväksesi selvittää, mitkä niistä ovat tärkeitä.</p>
+                <p class="lede">Playhead lukee tiedoston samalla kirjastolla, jota ammattilaisetkin käyttävät, ja vastaa sitten kysymykseesi: mikä tämä on, toimiiko se ja onko siinä jotain vikaa.</p>
+            </div>
+            <div>
+                <img src="../../screenshots/lanes.png" alt="Playhead näyttää Matroska-tiedoston, jossa on kolme ääniraitaa ja neljä tekstitysraitaa, jotka on järjestetty kaistoiksi" class="shot" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">kappaleet</div>
+        <h2 class="section-title">Katso tiedoston rakenne, älä pelkästään luetteloa</h2>
+        <div class="split">
+            <div>
+                <img src="../../screenshots/lanes.png" alt="Kaistat, jotka osoittavat, mitkä virrat kuljettavat dataa tiedoston koko pituudelta" class="shot" loading="lazy">
+            </div>
+            <div>
+                <p class="lede">Luettelosta selviää, että elokuvassa on kaksitoista tekstitysraitaa. Siitä ei kuitenkaan käy ilmi, että yksi niistä näkyy 90 sekunnin ajan elokuvan keskivaiheilla, mikä on tyypillistä pakotetulle kerronnalliselle ääniraidalle, tai että toinen ääniraita loppuu lopputekstien kohdalla.</p>
+                <p class="lede">Playhead sijoittaa kaikki raidat yhdelle aikajanalle: kuva elokuvafilminauhana, jokainen ääniraita nimetty omalla otsikollaan, jokainen tekstitysraita piirretty sinne, missä se tosiasiallisesti esiintyy.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">Väri</div>
+        <h2 class="section-title">HDR, ihmisten kielellä</h2>
+        <div class="split">
+            <div>
+                <p class="lede">Useimmat työkalut ilmoittavat formaatin nimellä "SMPTE ST 2086" ja jättävät tunnistettavan nimen eri kenttään. Playhead alkaa HDR10:llä tai Dolby Visionilla, kertoo mihin laite, jossa niitä ei ole, siirtyy, ja muuntaa masterointitiedot luettavaksi kirkkaustiedoksi: millä näytöllä värikorjaus tehtiin, kirkkain pikseli, kirkkain ruutu.</p>
+            </div>
+            <div>
+                <img src="../../screenshots/hdr.png" alt="HDR-ryhmä, jossa esitetään formaatti, päävärit, siirtofunktio ja masteroinnin kirkkaus niteinä" class="shot" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">Yhteensopivuus</div>
+        <h2 class="section-title">Mitattu Mac-tietokoneellasi, ei taulukosta haettu</h2>
+        <div class="split">
+            <div>
+                <img src="../../screenshots/compatibility.png" alt="Playhead kertoo, että tämä Mac hoitaa kaiken tiedostoon liittyvän paitsi laitteistopohjaisen dekoodauksen" class="shot" loading="lazy">
+            </div>
+            <div>
+                <p class="lede">Muut työkalut tekevät oletuksia sääntöjen perusteella, kuten "10-bittisessä 4:2:2-muodossa ei yleensä ole laitteistopohjaista dekoodausta". Tällaiset säännöt ovat jo kirjoitushetkellä virheellisiä joillakin laitteilla.</p>
+                <p class="lede">Playhead välittää tiedostosi oman koodekkimäärityksen VideoToolboxille ja kysyy suoraan Maciltasi, joten vastaus ottaa huomioon juuri edessäsi olevan profiilin, värisyvyyden ja kromaattisuuden. Se tarkistaa myös kuvataajuuden suhteessa näytön virkistystaajuuteen sekä sen, pystyykö näyttösi todella näyttämään HDR-kuvaa.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">Valokuvat</div>
+        <h2 class="section-title">Jokainen valokuva ja se, mitä kamera tallensi</h2>
+        <div class="split">
+            <div>
+                <p class="lede">Avaa JPEG-, HEIC- tai RAW-tiedosto, ja Playhead lukee kameran, objektiivin, suljinnopeuden, aukon ja ISO-arvon sekä tekijänoikeus- ja kuvatekstitiedot.</p>
+                <p class="lede">Jos valokuvassa on vielä tallennettuna sen ottopaikan koordinaatit, Playhead ilmoittaa siitä selvästi, ennen kuin jaat sen kenellekään.</p>
+            </div>
+            <div>
+                <img src="../../screenshots/photo.png" alt="Playhead-ohjelmassa tarkasteltu valokuva, jossa näkyvät kameran metatiedot ja ilmoitus sijainnin tallentamisesta" class="shot" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">Kaikki muu</div>
+        <h2 class="section-title">Suunniteltu ihmisille, jotka lukevat peltoja</h2>
+        <div class="features-grid">
+            <div class="feature-card"><div class="feature-icon">◱</div><h3>Vertaa kahta tiedostoa</h3><p>Laita verkkoversio levyn kopion viereen ja katso, mitkä kohdat eroavat toisistaan.</p></div>
+            <div class="feature-card"><div class="feature-icon">⌕</div><h3>Hae kaikista kentistä</h3><p>Yksi haku kattaa koko tiedoston, ei vain sattumalta auki olevaa välilehteä.</p></div>
+            <div class="feature-card"><div class="feature-icon">⇥</div><h3>Kopioi mitä tahansa</h3><p>Mikä tahansa arvo, mikä tahansa kenttä, yhden rivin yhteenveto tai täydellinen tekstimuotoinen raportti foorumiviestistä.</p></div>
+            <div class="feature-card"><div class="feature-icon">⇩</div><h3>Vie kuudella eri tavalla</h3><p>JSON, XML, EBUCore, CSV, Markdown ja pelkkä teksti.</p></div>
+            <div class="feature-card"><div class="feature-icon">␣</div><h3>Pikakatsaus</h3><p>Paina Finderissa Matroska-tiedoston päällä välilyöntiä ja katso, mitä sen sisällä on.</p></div>
+            <div class="feature-card"><div class="feature-icon">⋯</div><h3>Napsauta hiiren oikealla painikkeella Finderissa</h3><p>Tarkista Playhead:n avulla avaamatta sovellusta ensin.</p></div>
+            <div class="feature-card"><div class="feature-icon">◲</div><h3>Jakamisvalikko iPhonessa</h3><p>Jaa video Tiedostot-kohdasta ja saat vastauksen poistumatta taulukosta.</p></div>
+            <div class="feature-card"><div class="feature-icon">≡</div><h3>Kaikki kentät ovat edelleen paikallaan</h3><p>Valikoidyt ryhmät ovat kätevä ominaisuus. Koko valikoima on vain yhden välilehden päässä.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="privacy">
+            <h2 class="section-title" style="margin-bottom:10px">Mitään tietoja ei lähetetä laitteestasi</h2>
+            <p class="lede" style="margin-bottom:0">Playhead lukee tiedostoja Mac-tietokoneeltasi tai iPhoneltasi eikä tee mitään muuta. Ei käyttäjätiliä, ei telemetriaa, ei verkkopyyntöjä, ei analytiikkaa. Mediasi ei koskaan poistu laitteelta, jolla se jo on, koska sille ei ole palvelinta, jonne se voisi siirtyä.</p>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">Kysymykset</div>
+        <h2 class="section-title">Usein kysytyt kysymykset</h2>
+        <div class="faq">
+            <details><summary>Miten tämä eroaa MediaInfosta?</summary><p>Playhead lukee samat tiedot käyttäen samaa taustakirjastoa ja pitää kaikki kentät käytettävissä. Ero on siinä, mitä seuraavaksi tapahtuu: se nimeää tiedoston lauseen muodossa, näyttää kappaleet aikajanalla ja kertoo, toistetaanko tiedostoa sillä koneella, jonka ääressä olet. MediaInfo on ilmainen ja erinomainen tiedonkeruussa; Playhead keskittyy sen ymmärtämiseen.</p></details>
+            <details><summary>Mitä tiedostomuotoja se tukee?</summary><p>Matroska, MP4, QuickTime, WebM, AVI, MPEG-TS, Ogg, FLAC, WAV, MP3 ja monet muut, sekä still-kuvat, kuten JPEG, PNG, HEIC, TIFF ja RAW-tiedostot. Kehykset erotetaan H.264-, H.265-, AV1-, VP8- ja VP9-tiedostoista.</p></details>
+            <details><summary>Muuttaako se tiedostojani?</summary><p>No. Playhead avaa tiedostot vain luku -tilassa eikä koskaan kirjoita niihin.</p></details>
+            <details><summary>Onko kyseessä yksi ostos molemmille alustoille?</summary><p>Kyllä. Playhead on yleispätevä ostos, joten sen ostaminen kerran kattaa Macin, iPhonen ja iPadin.</p></details>
+            <details><summary>Miksi se pystyy avaamaan tiedostoja, joita QuickTime ei pysty avaamaan?</summary><p>Se ei nojaudu pelkästään järjestelmän mediakokonaisuuteen. Se yhdistää samat avoimen lähdekoodin kirjastot, joita käytetään koko alalla konttien lukemiseen ja virtojen demultipleksointiin, ja siirtää dekoodauksen sitten takaisin Applen omalle laitteistodekooderille.</p></details>
+            <details><summary>Tarvitaanko internet-yhteys?</summary><p>Ei. Se ei koskaan aiheuta sellaista.</p></details>
+        </div>
+    </div>
+</section>
+
+<section class="cta-final" id="buy">
+    <div class="container">
+        <h2 class="section-title">Playhead</h2>
+        <p class="lede">Yksi maksu. Mac, iPhone ja iPad. Mitään tietoja ei siirretä laitteeltasi.</p>
+        <a href="#" class="hero-cta">Tulossa pian App Storeen</a>
+        <span class="hero-free">$0.99, universal purchase</span>
+    </div>
+</section>
+
+<footer>
+    <div class="container foot-links">
+        <a href="https://corvusdevs.github.io/">CorvusDevs</a>
+        <a href="privacy.html">Tietosuoja</a>
+        <a href="../../LICENSING.md">Avoimen lähdekoodin lisenssit</a>
+    </div>
+</footer>
+<script>document.addEventListener("click",function(){document.querySelectorAll(".lang-menu.open").forEach(function(m){m.classList.remove("open")})});/*closeLang*/</script></body>
+</html>

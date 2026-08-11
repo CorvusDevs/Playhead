@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <script>window.__corvusAppsPromise=fetch('https://corvusdevs.github.io/apps.json',{cache:'default'}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Playhead：在 Mac 和 iPhone 上查看任何媒體檔案的內容</title>
+    <meta name="description" content="一款適用於 macOS 和 iOS 的媒體檢測工具，能讀取 QuickTime 無法處理的檔案格式。支援 Matroska 格式、真實位元深度、Dolby Vision 與 HDR10 母帶資料、每軌覆蓋通道、照片的 EXIF 資訊，並可在您的 Mac 上進行硬體解碼檢測。售價 0.99 美元，無需訂閱，所有資料皆不離開您的裝置。">
+    <link rel="canonical" href="https://corvusdevs.github.io/Playhead/i18n/zh-Hant/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://corvusdevs.github.io/Playhead/i18n/zh-Hant/">
+    <meta property="og:title" content="Playhead：查看任何媒體檔案的內容">
+    <meta property="og:description" content="一款適用於 Mac 和 iPhone 的媒體檢視工具，能讀取 QuickTime 無法處理的檔案格式。支援 Matroska、HDR 母帶資料、每軌音道、EXIF 資訊，並可在您的 Mac 上進行硬體解碼測試。">
+    <meta property="og:image" content="https://corvusdevs.github.io/Playhead/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="zh_Hant">
+    <meta property="og:site_name" content="CorvusDevs">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Playhead：查看任何媒體檔案的內容">
+    <meta name="twitter:description" content="一款適用於 Mac 和 iPhone 的媒體檢視器。可讀取 Matroska 格式、HDR 母帶資料、每軌音道及 EXIF 資訊。售價 0.99 美元，資料絕不外傳。">
+    <meta name="twitter:image" content="https://corvusdevs.github.io/Playhead/og-image.png">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="MediaInfo 替代方案（Mac）、Media Inspector（macOS）、MKV 元資料檢視器、Matroska 資訊（Mac）、HDR10/杜比視界元資料、EXIF 檢視器（Mac）、影片編解碼器檢查工具、位元率分析器（Mac）、QuickTime 無法開啟 MKV 檔案">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+    <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+    <link rel="alternate" hreflang="en" href="https://corvusdevs.github.io/Playhead/">
+    <link rel="alternate" hreflang="ar" href="https://corvusdevs.github.io/Playhead/i18n/ar/">
+    <link rel="alternate" hreflang="ca" href="https://corvusdevs.github.io/Playhead/i18n/ca/">
+    <link rel="alternate" hreflang="cs" href="https://corvusdevs.github.io/Playhead/i18n/cs/">
+    <link rel="alternate" hreflang="da" href="https://corvusdevs.github.io/Playhead/i18n/da/">
+    <link rel="alternate" hreflang="de" href="https://corvusdevs.github.io/Playhead/i18n/de/">
+    <link rel="alternate" hreflang="el" href="https://corvusdevs.github.io/Playhead/i18n/el/">
+    <link rel="alternate" hreflang="es" href="https://corvusdevs.github.io/Playhead/i18n/es/">
+    <link rel="alternate" hreflang="es-MX" href="https://corvusdevs.github.io/Playhead/i18n/es-MX/">
+    <link rel="alternate" hreflang="fi" href="https://corvusdevs.github.io/Playhead/i18n/fi/">
+    <link rel="alternate" hreflang="fr" href="https://corvusdevs.github.io/Playhead/i18n/fr/">
+    <link rel="alternate" hreflang="fr-CA" href="https://corvusdevs.github.io/Playhead/i18n/fr-CA/">
+    <link rel="alternate" hreflang="he" href="https://corvusdevs.github.io/Playhead/i18n/he/">
+    <link rel="alternate" hreflang="hi" href="https://corvusdevs.github.io/Playhead/i18n/hi/">
+    <link rel="alternate" hreflang="hr" href="https://corvusdevs.github.io/Playhead/i18n/hr/">
+    <link rel="alternate" hreflang="hu" href="https://corvusdevs.github.io/Playhead/i18n/hu/">
+    <link rel="alternate" hreflang="id" href="https://corvusdevs.github.io/Playhead/i18n/id/">
+    <link rel="alternate" hreflang="it" href="https://corvusdevs.github.io/Playhead/i18n/it/">
+    <link rel="alternate" hreflang="ja" href="https://corvusdevs.github.io/Playhead/i18n/ja/">
+    <link rel="alternate" hreflang="ko" href="https://corvusdevs.github.io/Playhead/i18n/ko/">
+    <link rel="alternate" hreflang="ms" href="https://corvusdevs.github.io/Playhead/i18n/ms/">
+    <link rel="alternate" hreflang="nb" href="https://corvusdevs.github.io/Playhead/i18n/nb/">
+    <link rel="alternate" hreflang="nl" href="https://corvusdevs.github.io/Playhead/i18n/nl/">
+    <link rel="alternate" hreflang="pl" href="https://corvusdevs.github.io/Playhead/i18n/pl/">
+    <link rel="alternate" hreflang="pt-BR" href="https://corvusdevs.github.io/Playhead/i18n/pt-BR/">
+    <link rel="alternate" hreflang="pt-PT" href="https://corvusdevs.github.io/Playhead/i18n/pt-PT/">
+    <link rel="alternate" hreflang="ro" href="https://corvusdevs.github.io/Playhead/i18n/ro/">
+    <link rel="alternate" hreflang="ru" href="https://corvusdevs.github.io/Playhead/i18n/ru/">
+    <link rel="alternate" hreflang="sk" href="https://corvusdevs.github.io/Playhead/i18n/sk/">
+    <link rel="alternate" hreflang="sv" href="https://corvusdevs.github.io/Playhead/i18n/sv/">
+    <link rel="alternate" hreflang="th" href="https://corvusdevs.github.io/Playhead/i18n/th/">
+    <link rel="alternate" hreflang="tr" href="https://corvusdevs.github.io/Playhead/i18n/tr/">
+    <link rel="alternate" hreflang="uk" href="https://corvusdevs.github.io/Playhead/i18n/uk/">
+    <link rel="alternate" hreflang="vi" href="https://corvusdevs.github.io/Playhead/i18n/vi/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://corvusdevs.github.io/Playhead/i18n/zh-Hans/">
+    <link rel="alternate" hreflang="zh-Hant" href="https://corvusdevs.github.io/Playhead/i18n/zh-Hant/">
+    <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/Playhead/">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Playhead", "operatingSystem": "macOS 14, iOS 17", "applicationCategory": "MultimediaApplication", "description": "一款適用於 macOS 和 iOS 的媒體檢測工具，能讀取 QuickTime 無法處理的檔案格式。支援 Matroska 格式、真實位元深度、Dolby Vision 與 HDR10 母帶資料、每軌覆蓋通道、照片的 EXIF 資訊，並可在您的 Mac 上進行硬體解碼檢測。售價 0.99 美元，無需訂閱，所有資料皆不離開您的裝置。", "url": "https://corvusdevs.github.io/Playhead/i18n/zh-Hant/", "inLanguage": "zh-Hant", "offers": {"@type": "Offer", "price": "0.99", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "CorvusDevs", "url": "https://corvusdevs.github.io/"}}</script>
+    <style>
+        /* ac-no-horizontal-scroll v1 */
+        html, body { overflow-x: clip; max-width: 100%; }
+        img, video, iframe { max-width: 100%; height: auto; }
+        pre, table { max-width: 100%; overflow-x: auto; }
+
+        :root {
+            --bg: #0B0D12; --surface: #14171F; --surface-2: #1B1F2A; --border: #272C39;
+            --text: #F2F4F8; --text-secondary: #8D95A6; --accent: #0A84FF; --accent-light: #4DA3FF;
+            --accent-dim: rgba(10, 132, 255, 0.12);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.6;
+            -webkit-font-smoothing: antialiased; min-height: 100vh;
+        }
+        a { color: inherit; }
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 16px 32px;
+            display: flex; justify-content: space-between; align-items: center;
+            background: rgba(11, 13, 18, 0.8);
+            backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+        }
+        .nav-brand {
+            font-size: 18px; font-weight: 700; color: var(--text); text-decoration: none;
+            letter-spacing: -0.3px; display: flex; align-items: center; gap: 10px;
+        }
+        .nav-brand img { width: 34px; height: 34px; border-radius: 9px; display: block; }
+        .nav-brand .wordmark { display: inline; }
+        .nav-brand span { color: var(--accent-light); }
+        .nav-right { display: flex; align-items: center; gap: 14px; }
+        .nav-cta {
+            font-size: 14px; font-weight: 600; color: #fff; background: var(--accent);
+            padding: 8px 18px; border-radius: 10px; text-decoration: none; transition: background 0.2s;
+        }
+        .nav-cta:hover { background: var(--accent-light); }
+        .shot { width: 100%; border-radius: 14px; border: 1px solid var(--border); display: block; }
+        .shot-caption { font-size: 14px; color: var(--text-secondary); margin-top: 12px; text-align: center; }
+        .split { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; align-items: center; }
+        @media (max-width: 820px) { .split { grid-template-columns: 1fr; } }
+        .lede { font-size: 17px; color: var(--text-secondary); margin-bottom: 14px; }
+        .privacy { border: 1px solid var(--border); background: var(--accent-dim);
+                   border-radius: 14px; padding: 22px 24px; }
+
+        .container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+        .block { padding: 96px 0 0; }
+        .section-label {
+            text-align: center; font-size: 13px; font-weight: 700; letter-spacing: 2px;
+            text-transform: uppercase; color: var(--accent-light); margin-bottom: 14px;
+        }
+        .section-title {
+            text-align: center; font-size: 40px; font-weight: 800; letter-spacing: -1.2px;
+            line-height: 1.15; margin-bottom: 34px;
+        }
+        .hero { text-align: center; padding: 148px 24px 0; }
+        .hero-icon {
+            width: 168px; height: 168px; border-radius: 38px; display: block; margin: 0 auto 26px;
+            filter: drop-shadow(0 20px 60px rgba(10, 132, 255, 0.35));
+        }
+        .hero h1 {
+            font-size: 62px; font-weight: 800; letter-spacing: -3px; line-height: 1.05;
+            margin-bottom: 18px;
+            background: linear-gradient(135deg, #ffffff 0%, var(--accent-light) 100%);
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent; color: transparent;
+        }
+        .hero .subtitle {
+            font-size: 19px; color: var(--text-secondary); max-width: 620px;
+            margin: 0 auto 34px; font-weight: 400;
+        }
+        .hero-cta {
+            display: inline-flex; align-items: center; gap: 10px; padding: 16px 36px;
+            background: var(--accent); color: #fff; font-size: 16px; font-weight: 600;
+            border-radius: 14px; text-decoration: none; transition: background 0.2s, transform 0.2s;
+            box-shadow: 0 10px 30px rgba(10, 132, 255, 0.35);
+        }
+        .hero-cta:hover { background: var(--accent-light); transform: translateY(-2px); }
+        .hero-free { display: block; font-size: 14px; color: var(--text-secondary); margin-top: 16px; }
+
+        .features-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+        .feature-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+            padding: 24px 22px;
+        }
+        .feature-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+        .feature-card p { font-size: 15px; color: var(--text-secondary); }
+        .feature-icon {
+            width: 42px; height: 42px; border-radius: 12px; background: var(--accent-dim);
+            color: var(--accent-light); display: flex; align-items: center; justify-content: center;
+            font-size: 20px; margin-bottom: 14px;
+        }
+
+        .faq { max-width: 780px; margin: 0 auto; }
+        .faq details {
+            border: 1px solid var(--border); border-radius: 14px; background: var(--surface);
+            padding: 18px 22px; margin-bottom: 12px;
+        }
+        .faq summary {
+            font-size: 17px; font-weight: 600; cursor: pointer; list-style: none;
+        }
+        .faq summary::-webkit-details-marker { display: none; }
+        .faq summary::after { content: " +"; color: var(--accent-light); }
+        .faq details[open] summary::after { content: " \2212"; }
+        .faq p { font-size: 15px; color: var(--text-secondary); margin-top: 12px; }
+
+        .cta-final { padding: 110px 0 96px; text-align: center; }
+        footer { border-top: 1px solid var(--border); margin-top: 80px; padding: 34px 0 46px; }
+        .foot-links {
+            display: flex; gap: 26px; justify-content: center; flex-wrap: wrap;
+            font-size: 14px; color: var(--text-secondary);
+        }
+        .foot-links a { text-decoration: none; }
+        .foot-links a:hover { color: var(--accent-light); }
+
+        @media (max-width: 820px) {
+            nav { padding: 12px 18px; }
+            .hero { padding-top: 116px; }
+            .hero h1 { font-size: 40px; letter-spacing: -1.6px; }
+            .hero-icon { width: 120px; height: 120px; border-radius: 28px; }
+            .section-title { font-size: 29px; }
+            .block { padding-top: 68px; }
+        }
+
+        .lang-wrap { position: relative; }
+        .lang-btn { background: none; border: 0.5px solid var(--border); color: var(--text-secondary);
+                    font-size: 13px; padding: 7px 12px; border-radius: 10px; cursor: pointer;
+                    font-family: inherit; }
+        .lang-btn:hover { color: var(--text); border-color: var(--text-secondary); }
+        .lang-menu { position: absolute; top: 42px; right: 0; background: var(--surface);
+                     border: 1px solid var(--border); border-radius: 12px; padding: 6px;
+                     display: none; max-height: 60vh; overflow-y: auto; min-width: 190px; z-index: 200; }
+        .lang-menu.open { display: block; }
+        .lang-menu a { display: flex; align-items: center; gap: 9px; padding: 7px 10px;
+                       font-size: 14px; text-decoration: none; border-radius: 8px; color: var(--text-secondary); }
+        .lang-menu a:hover { background: var(--surface-2); color: var(--text); }
+        .lang-menu a.active { color: var(--accent-light); }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="https://corvusdevs.github.io/" class="nav-brand"><img src="../../icon.png" alt=""><span class="wordmark">Play<span>head</span></span></a>
+    <div class="nav-right"><div class="lang-wrap"><button class="lang-btn" aria-label="Language" onclick="var m=this.nextElementSibling;m.classList.toggle('open');event.stopPropagation();">文A 繁體中文</button><div class="lang-menu"><a href="../../" class=""><img src="../../flags/en.svg" alt="" width="20" height="14" loading="lazy">English</a><a href="../../i18n/ar/" class=""><img src="../../flags/ar.svg" alt="" width="20" height="14" loading="lazy">العربية</a><a href="../../i18n/ca/" class=""><img src="../../flags/ca.svg" alt="" width="20" height="14" loading="lazy">Català</a><a href="../../i18n/cs/" class=""><img src="../../flags/cs.svg" alt="" width="20" height="14" loading="lazy">Čeština</a><a href="../../i18n/da/" class=""><img src="../../flags/da.svg" alt="" width="20" height="14" loading="lazy">Dansk</a><a href="../../i18n/de/" class=""><img src="../../flags/de.svg" alt="" width="20" height="14" loading="lazy">Deutsch</a><a href="../../i18n/el/" class=""><img src="../../flags/el.svg" alt="" width="20" height="14" loading="lazy">Ελληνικά</a><a href="../../i18n/es/" class=""><img src="../../flags/es.svg" alt="" width="20" height="14" loading="lazy">Español</a><a href="../../i18n/es-MX/" class=""><img src="../../flags/es.svg" alt="" width="20" height="14" loading="lazy">Español (MX)</a><a href="../../i18n/fi/" class=""><img src="../../flags/fi.svg" alt="" width="20" height="14" loading="lazy">Suomi</a><a href="../../i18n/fr/" class=""><img src="../../flags/fr.svg" alt="" width="20" height="14" loading="lazy">Français</a><a href="../../i18n/fr-CA/" class=""><img src="../../flags/fr.svg" alt="" width="20" height="14" loading="lazy">Français (CA)</a><a href="../../i18n/he/" class=""><img src="../../flags/he.svg" alt="" width="20" height="14" loading="lazy">עברית</a><a href="../../i18n/hi/" class=""><img src="../../flags/hi.svg" alt="" width="20" height="14" loading="lazy">हिन्दी</a><a href="../../i18n/hr/" class=""><img src="../../flags/hr.svg" alt="" width="20" height="14" loading="lazy">Hrvatski</a><a href="../../i18n/hu/" class=""><img src="../../flags/hu.svg" alt="" width="20" height="14" loading="lazy">Magyar</a><a href="../../i18n/id/" class=""><img src="../../flags/id.svg" alt="" width="20" height="14" loading="lazy">Indonesia</a><a href="../../i18n/it/" class=""><img src="../../flags/it.svg" alt="" width="20" height="14" loading="lazy">Italiano</a><a href="../../i18n/ja/" class=""><img src="../../flags/ja.svg" alt="" width="20" height="14" loading="lazy">日本語</a><a href="../../i18n/ko/" class=""><img src="../../flags/ko.svg" alt="" width="20" height="14" loading="lazy">한국어</a><a href="../../i18n/ms/" class=""><img src="../../flags/ms.svg" alt="" width="20" height="14" loading="lazy">Melayu</a><a href="../../i18n/nb/" class=""><img src="../../flags/nb.svg" alt="" width="20" height="14" loading="lazy">Norsk</a><a href="../../i18n/nl/" class=""><img src="../../flags/nl.svg" alt="" width="20" height="14" loading="lazy">Nederlands</a><a href="../../i18n/pl/" class=""><img src="../../flags/pl.svg" alt="" width="20" height="14" loading="lazy">Polski</a><a href="../../i18n/pt-BR/" class=""><img src="../../flags/pt.svg" alt="" width="20" height="14" loading="lazy">Português (BR)</a><a href="../../i18n/pt-PT/" class=""><img src="../../flags/pt.svg" alt="" width="20" height="14" loading="lazy">Português</a><a href="../../i18n/ro/" class=""><img src="../../flags/ro.svg" alt="" width="20" height="14" loading="lazy">Română</a><a href="../../i18n/ru/" class=""><img src="../../flags/ru.svg" alt="" width="20" height="14" loading="lazy">Русский</a><a href="../../i18n/sk/" class=""><img src="../../flags/sk.svg" alt="" width="20" height="14" loading="lazy">Slovenčina</a><a href="../../i18n/sv/" class=""><img src="../../flags/sv.svg" alt="" width="20" height="14" loading="lazy">Svenska</a><a href="../../i18n/th/" class=""><img src="../../flags/th.svg" alt="" width="20" height="14" loading="lazy">ไทย</a><a href="../../i18n/tr/" class=""><img src="../../flags/tr.svg" alt="" width="20" height="14" loading="lazy">Türkçe</a><a href="../../i18n/uk/" class=""><img src="../../flags/uk.svg" alt="" width="20" height="14" loading="lazy">Українська</a><a href="../../i18n/vi/" class=""><img src="../../flags/vi.svg" alt="" width="20" height="14" loading="lazy">Tiếng Việt</a><a href="../../i18n/zh-Hans/" class=""><img src="../../flags/zh.svg" alt="" width="20" height="14" loading="lazy">简体中文</a><a href="../../i18n/zh-Hant/" class="active"><img src="../../flags/zh.svg" alt="" width="20" height="14" loading="lazy">繁體中文</a></div></div>
+        <a href="#buy" class="nav-cta">取得 Playhead</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <img src="../../icon.png" alt="Playhead app icon" class="hero-icon" width="168" height="168">
+    <h1>看看裡面有什麼</h1>
+    <p class="subtitle">一款適用於 Mac 和 iPhone 的媒體檢視工具，能讀取 QuickTime 無法開啟的檔案，並向您說明其中各項內容的含義。</p>
+    <a href="#buy" class="hero-cta">取得 Playhead（$0.99）</a>
+    <span class="hero-free">macOS 14 或更新版本，iOS 17 或更新版本。一次付款，無需訂閱。</span>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">問題</div>
+        <h2 class="section-title">您的 Mac 無法開啟一半的檔案</h2>
+        <div class="split">
+            <div>
+                <p class="lede">在 Matroska 檔案上按下空格鍵，Finder 只會聳聳肩；QuickTime 則直接拒絕讀取。那些能讀取此檔案的工具會回傳三百個欄位，卻讓你自己去分辨哪些欄位真正重要。</p>
+                <p class="lede">Playhead 會使用專業人士所用的相同函式庫來讀取檔案，接著回答您真正提出的問題：這是什麼、能否播放，以及是否有任何問題。</p>
+            </div>
+            <div>
+                <img src="../../screenshots/lanes.png" alt="Playhead 顯示一個包含三條音軌和四條字幕軌（以「通道」形式排列）的 Matroska 檔案" class="shot" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">音軌</div>
+        <h2 class="section-title">掌握檔案的全貌，而不僅僅是清單</h2>
+        <div class="split">
+            <div>
+                <img src="../../screenshots/lanes.png" alt="顯示哪些資料流會沿著檔案全長傳輸資料的通道" class="shot" loading="lazy">
+            </div>
+            <div>
+                <p class="lede">一份清單只能告訴你一部電影有十二條字幕音軌，卻無法告訴你其中一條會在中段出現長達九十秒. 這正是「強制敘事音軌」的表現形式. 也無法告訴你第二條音軌會在片尾字幕處停止。</p>
+                <p class="lede">Playhead 將所有音軌整合於單一時間軸上：畫面如電影膠片般呈現，每條音軌皆以其專屬標題命名，每條字幕軌則精準標示於其實際出現的位置。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">顏色</div>
+        <h2 class="section-title">HDR，用通俗易懂的語言來說</h2>
+        <div class="split">
+            <div>
+                <p class="lede">大多數工具會將格式標示為「SMPTE ST 2086」，並將您所熟悉的名稱放在另一個欄位中。Playhead 以 HDR10 或 Dolby Vision 為開頭，說明若播放器不支援該格式時會回退至何種格式，並將母帶處理資料轉化為您能理解的亮度數值：包括進行調色的顯示器、最亮的像素以及最亮的畫面幀。</p>
+            </div>
+            <div>
+                <img src="../../screenshots/hdr.png" alt="HDR 群組，顯示格式、原色、傳輸函數及母帶亮度（單位：尼特）" class="shot" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">相容性</div>
+        <h2 class="section-title">直接在您的 Mac 上測量，而非查閱表格</h2>
+        <div class="split">
+            <div>
+                <img src="../../screenshots/compatibility.png" alt="Playhead 報導指出，這台 Mac 能處理檔案的各項功能，唯獨無法進行硬體解碼" class="shot" loading="lazy">
+            </div>
+            <div>
+                <p class="lede">其他工具則根據「10 位元 4:2:2 通常缺乏硬體解碼」這類規則進行推測。這類規則在撰寫當日，就已經在某些機器上失效了。</p>
+                <p class="lede">Playhead 會將您檔案本身的編解碼器設定傳遞給 VideoToolbox，並直接向您的 Mac 查詢，因此結果會精確反映您眼前檔案的色域、位元深度及色度資訊。它還會比對幀率與顯示器的刷新率，並確認您的螢幕是否確實支援 HDR 顯示。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">照片</div>
+        <h2 class="section-title">每一張照片，以及相機所記錄下的畫面</h2>
+        <div class="split">
+            <div>
+                <p class="lede">開啟 JPEG、HEIC 或 RAW 檔案後，Playhead 會讀取相機型號、鏡頭型號、快門速度、光圈值及 ISO 值，並一併讀取版權與圖說欄位。</p>
+                <p class="lede">如果照片仍包含拍攝地點的座標，Playhead 會明確地告訴你，在你將照片分享給任何人之前。</p>
+            </div>
+            <div>
+                <img src="../../screenshots/photo.png" alt="在 Playhead 中檢視的一張照片，顯示相機的元資料以及一則關於其會記錄位置的提示" class="shot" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">其他所有內容</div>
+        <h2 class="section-title">專為那些能從田野中讀出訊息的人而打造</h2>
+        <div class="features-grid">
+            <div class="feature-card"><div class="feature-icon">◱</div><h3>比較兩個檔案</h3><p>將網路版與光碟轉檔版並列，只查看兩者之間的差異。</p></div>
+            <div class="feature-card"><div class="feature-icon">⌕</div><h3>搜尋所有欄位</h3><p>一次搜尋會涵蓋整個檔案，而非您當下開啟的分頁。</p></div>
+            <div class="feature-card"><div class="feature-icon">⇥</div><h3>複製任何內容</h3><p>針對論壇貼文，可提供任何數值、任何欄位、一行摘要，或完整的純文字報告。</p></div>
+            <div class="feature-card"><div class="feature-icon">⇩</div><h3>六種匯出方式</h3><p>JSON、XML、EBUCore、CSV、Markdown 及純文字。</p></div>
+            <div class="feature-card"><div class="feature-icon">␣</div><h3>快速預覽</h3><p>在「Finder」中按空格鍵選取一個 Matroska 檔案，即可查看其內容。</p></div>
+            <div class="feature-card"><div class="feature-icon">⋯</div><h3>在「Finder」中按右鍵</h3><p>使用 Playhead 進行檢查，無需先開啟應用程式。</p></div>
+            <div class="feature-card"><div class="feature-icon">◲</div><h3>iPhone 上的「分享表單」</h3><p>從「檔案」中分享影片，無需離開試算表即可獲得答案。</p></div>
+            <div class="feature-card"><div class="feature-icon">≡</div><h3>每個欄位，依然都在那裡</h3><p>這些精選群組旨在提供便利。完整清單只需點擊一個分頁即可查看。</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="privacy">
+            <h2 class="section-title" style="margin-bottom:10px">資料絕不會離開您的裝置</h2>
+            <p class="lede" style="margin-bottom:0">Playhead 僅用於讀取您 Mac 或 iPhone 上的檔案，除此之外不進行任何其他操作。無需帳戶、無遠程監測、無網路請求、無分析追蹤。您的媒體檔案絕不會離開其所在的裝置，因為根本沒有伺服器可供傳輸。</p>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="section-label">問題</div>
+        <h2 class="section-title">常見問題</h2>
+        <div class="faq">
+            <details><summary>這與 MediaInfo 有什麼不同？</summary><p>Playhead 讀取相同資料，使用相同的底層函式庫，並保留所有欄位的可用性。兩者的差異在於後續的處理方式：它會以一句話說明檔案的內容、在時間軸上顯示音軌，並告知該檔案是否能在您當前使用的電腦上播放。MediaInfo 是一款免費且擅長蒐集資訊的工具；Playhead 則著重於理解這些資訊。</p></details>
+            <details><summary>它能讀取哪些格式？</summary><p>Matroska、MP4、QuickTime、WebM、AVI、MPEG-TS、Ogg、FLAC、WAV、MP3 以及更多格式，此外還支援靜態影像，包括 JPEG、PNG、HEIC、TIFF 及 RAW 檔案。可從 H.264、H.265、AV1、VP8 及 VP9 格式中擷取單幀影像。</p></details>
+            <details><summary>這會修改我的檔案嗎？</summary><p>編號 Playhead 會以唯讀方式開啟檔案，且絕不會對其進行寫入。</p></details>
+            <details><summary>這是否代表只需購買一次即可在兩個平台上使用？</summary><p>是的。Playhead 屬於通用購買方案，因此只需購買一次，即可涵蓋您的 Mac、iPhone 和 iPad。</p></details>
+            <details><summary>為什麼它能開啟 QuickTime 無法開啟的檔案？</summary><p>它並非僅依賴系統本身的媒體堆疊。它整合了業界通用的開源函式庫來讀取容器並解複用串流，隨後將解碼任務交由 Apple 自家的硬體解碼器處理。</p></details>
+            <details><summary>這需要連上網路嗎？</summary><p>不。它從來不會讓人這樣。</p></details>
+        </div>
+    </div>
+</section>
+
+<section class="cta-final" id="buy">
+    <div class="container">
+        <h2 class="section-title">Playhead</h2>
+        <p class="lede">一次付款。Mac、iPhone 和 iPad。資料絕不離開您的裝置。</p>
+        <a href="#" class="hero-cta">即將在 App Store 上架</a>
+        <span class="hero-free">$0.99, universal purchase</span>
+    </div>
+</section>
+
+<footer>
+    <div class="container foot-links">
+        <a href="https://corvusdevs.github.io/">CorvusDevs</a>
+        <a href="privacy.html">隱私權</a>
+        <a href="../../LICENSING.md">開源授權</a>
+    </div>
+</footer>
+<script>document.addEventListener("click",function(){document.querySelectorAll(".lang-menu.open").forEach(function(m){m.classList.remove("open")})});/*closeLang*/</script></body>
+</html>
