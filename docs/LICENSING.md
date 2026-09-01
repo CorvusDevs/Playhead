@@ -57,6 +57,19 @@ Add to the release procedure, and do not skip it when only the app changed:
 - [ ] Acknowledgements screen lists MediaInfoLib (BSD-2), ZenLib (Zlib), FFmpeg (LGPL-2.1) with a working source link
 - [ ] `configure` flags contain neither `--enable-gpl` nor `--enable-nonfree`
 
+Generate the release materials from the exact archive inputs, never from a
+later development build:
+
+```bash
+scripts/package-lgpl-materials.sh source --output release-materials/<version>/source
+scripts/package-lgpl-materials.sh objects --platform macos --derived-data <macos-derived-data> --output release-materials/<version>/macos-objects
+scripts/package-lgpl-materials.sh objects --platform ios --derived-data <ios-derived-data> --output release-materials/<version>/ios-objects
+```
+
+Each package includes a manifest. Keep its SHA-256 values with the release
+record and publish the source archive and both object packages before the
+corresponding App Store build is submitted.
+
 ## If this ever becomes inconvenient
 
 The fallback is to drop FFmpeg and lose MKV thumbnails only. Metadata for MKV
