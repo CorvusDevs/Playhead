@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <script>window.__corvusAppsPromise=fetch('https://corvusdevs.github.io/apps.json',{cache:'default'}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Playhead: MacやiPhoneでメディアファイルの中身を確認する方法</title>
-    <meta name="description" content="macOSおよびiOS向けのメディアインスペクター。QuickTimeでは読み込めないデータも解析可能です。Matroska、実際のビット深度、Dolby VisionおよびHDR10のマスタリングデータ、トラックごとのカバレッジレーン、写真のEXIF情報、そしてお使いのMac上で測定されるハードウェアデコードのチェック機能を搭載。価格は0.99ドル、定期購読は不要、デバイスからデータが外部に流出することはありません。">
+    <title>Playhead: 納品前のメディアチェック</title>
+    <meta name="description" content="納品前に再生、トラック、HDR、プライバシー、ファイル整合性の問題を発見。Playheadが理由と修正方法を示します。">
     <link rel="canonical" href="https://corvusdevs.github.io/Playhead/i18n/ja/">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://corvusdevs.github.io/Playhead/i18n/ja/">
-    <meta property="og:title" content="Playhead: あらゆるメディアファイルの中身を確認する">
-    <meta property="og:description" content="QuickTimeでは読み込めないデータを解析できる、MacおよびiPhone向けのメディアインスペクター。Matroska、HDRマスタリングデータ、トラックごとのレーン、EXIF、そしてお手持ちのMacで測定したハードウェアデコードのチェック機能を搭載。">
+    <meta property="og:title" content="Playhead: 納品前のメディアチェック">
+    <meta property="og:description" content="納品前に再生、トラック、HDR、プライバシー、ファイル整合性の問題を発見。Playheadが理由と修正方法を示します。">
     <meta property="og:image" content="https://corvusdevs.github.io/Playhead/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="ja">
     <meta property="og:site_name" content="CorvusDevs">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Playhead: あらゆるメディアファイルの中身を確認する">
-    <meta name="twitter:description" content="MacおよびiPhone用のメディアインスペクター。Matroska、HDRマスタリングデータ、トラックごとのレーン、EXIF情報を読み取ります。0.99ドル、デバイスからデータが外部に流出することはありません。">
+    <meta name="twitter:title" content="Playhead: 納品前のメディアチェック">
+    <meta name="twitter:description" content="納品前に再生、トラック、HDR、プライバシー、ファイル整合性の問題を発見。Playheadが理由と修正方法を示します。">
     <meta name="twitter:image" content="https://corvusdevs.github.io/Playhead/og-image.png">
     <meta name="robots" content="index, follow">
-    <meta name="keywords" content="MediaInfoのMac版代替ソフト、Media Inspector for macOS、MKVメタデータビューア、Matroska情報（Mac）、HDR10/Dolby Visionメタデータ、EXIFビューア（Mac）、ビデオコーデックチェッカー、ビットレートアナライザー（Mac）、QuickTimeでMKVファイルが開けない">
     <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
     <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
@@ -62,7 +61,7 @@
     <link rel="alternate" hreflang="zh-Hans" href="https://corvusdevs.github.io/Playhead/i18n/zh-Hans/">
     <link rel="alternate" hreflang="zh-Hant" href="https://corvusdevs.github.io/Playhead/i18n/zh-Hant/">
     <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/Playhead/">
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Playhead", "operatingSystem": "macOS 14, iOS 17", "applicationCategory": "MultimediaApplication", "description": "macOSおよびiOS向けのメディアインスペクター。QuickTimeでは読み込めないデータも解析可能です。Matroska、実際のビット深度、Dolby VisionおよびHDR10のマスタリングデータ、トラックごとのカバレッジレーン、写真のEXIF情報、そしてお使いのMac上で測定されるハードウェアデコードのチェック機能を搭載。価格は0.99ドル、定期購読は不要、デバイスからデータが外部に流出することはありません。", "url": "https://corvusdevs.github.io/Playhead/i18n/ja/", "inLanguage": "ja", "offers": {"@type": "Offer", "price": "0.99", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "CorvusDevs", "url": "https://corvusdevs.github.io/"}}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Playhead", "operatingSystem": "macOS 14, iOS 17", "applicationCategory": "MultimediaApplication", "description": "プレーヤー、クライアント、アップロード先に届く前に、メディアファイルが本当に完成しているか確認できます。\n\nPlayheadはファイルの整合性、再生、トラックの範囲、HDR、互換性、納品リスク、写真の位置情報を検査します。各結果には重要な理由と具体的な対処方法を表示。内蔵サンプル監査ですぐに操作を試せます。\n\n2つの版を比較し、追加または削除されたトラック、HDR、互換性、品質、サイズ、ビットレートなど重要な変更を先に確認できます。タイムライン上の根拠を調べ、すべての技術項目を検索し、作業に適した形式でレポートを書き出せます。\n\nオフラインで動作し、アカウント、解析、追跡はありません。ファイルはデバイス内に残ります。1回の購入でMac、iPhone、iPadを利用できます。", "url": "https://corvusdevs.github.io/Playhead/i18n/ja/", "inLanguage": "ja", "offers": {"@type": "Offer", "price": "0.99", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "CorvusDevs", "url": "https://corvusdevs.github.io/"}}</script>
     <style>
         /* ac-no-horizontal-scroll v1 */
         html, body { overflow-x: clip; max-width: 100%; }
@@ -216,23 +215,23 @@
 
 <section class="hero">
     <img src="../../icon.png" alt="Playhead app icon" class="hero-icon" width="168" height="168">
-    <h1>中身を見てみよう</h1>
-    <p class="subtitle">MacおよびiPhone向けのメディアインスペクター。QuickTimeで開くことのできないファイルを読み取り、その内容を解説するツールです。</p>
+    <h1>納品前のメディアチェック</h1>
+    <p class="subtitle">納品前に再生、トラック、HDR、プライバシー、ファイル整合性の問題を発見。Playheadが理由と修正方法を示します。</p>
     <a href="#buy" class="hero-cta">Playheadを入手（$0.99）</a>
     <span class="hero-free">macOS 14以降、iOS 17以降。1回のお支払いで、定期購読は不要です。</span>
 </section>
 
 <section class="block">
     <div class="container">
-        <div class="section-label">問題点</div>
-        <h2 class="section-title">Macでは、ファイルの半分を開くことができません</h2>
+        <div class="section-label">メディアチェック</div>
+        <h2 class="section-title">納品前に再生、トラック、HDR、プライバシー、ファイル整合性の問題を発見。Playheadが理由と修正方法を示します。</h2>
         <div class="split">
             <div>
-                <p class="lede">Matroskaファイルでスペースキーを押しても、Finderは反応しない。QuickTimeはきっぱりと拒否する。読み込めるツールは300ものフィールドを返してくるが、どれが重要なのかは自分で見極めなければならない。</p>
-                <p class="lede">Playheadは、プロが実際に使用しているのと同じライブラリを使ってファイルを読み込み、あなたが実際に尋ねた質問. 「これは何なのか」「再生できるのか」「何か問題はあるのか」. に答えます。</p>
+                <p class="lede">プレーヤー、クライアント、アップロード先に届く前に、メディアファイルが本当に完成しているか確認できます。</p>
+                <p class="lede">Playheadはファイルの整合性、再生、トラックの範囲、HDR、互換性、納品リスク、写真の位置情報を検査します。各結果には重要な理由と具体的な対処方法を表示。内蔵サンプル監査ですぐに操作を試せます。</p>
             </div>
             <div>
-                <img src="../../screenshots/lanes.png" alt="Playhead 3つのオーディオトラックと4つの字幕トラックがレーンとして配置されたMatroskaファイルを表示" class="shot" loading="lazy">
+                <img src="../../screenshots/lanes.png" alt="Playhead media inspection" class="shot" loading="lazy">
             </div>
         </div>
     </div>
@@ -332,7 +331,6 @@
         <div class="section-label">質問</div>
         <h2 class="section-title">よくある質問</h2>
         <div class="faq">
-            <details><summary>これはMediaInfoとどう違うのですか？</summary><p>Playheadは、同じ基盤ライブラリを使用して同じデータを読み込み、すべてのフィールドを利用可能な状態に保ちます。違いは、その後に何が起こるかです。Playheadは、ファイルの内容を文章で説明し、タイムライン上にトラックを表示し、現在使用しているマシンでそのファイルが再生可能かどうかを回答します。MediaInfoは無料で、情報の収集に優れています。一方、Playheadはその情報を理解することに重点を置いています。</p></details>
             <details><summary>どのような形式のファイルを読み込めますか？</summary><p>Matroska、MP4、QuickTime、WebM、AVI、MPEG-TS、Ogg、FLAC、WAV、MP3など多数に加え、JPEG、PNG、HEIC、TIFF、RAWファイルなどの静止画も対応しています。H.264、H.265、AV1、VP8、VP9のフレームを抽出可能です。</p></details>
             <details><summary>ファイルが変更されますか？</summary><p>No. Playhead はファイルを読み取り専用で開き、決して書き込みを行いません。</p></details>
             <details><summary>両方のプラットフォームで1回の購入で済むのでしょうか？</summary><p>はい。Playheadはユニバーサルライセンスですので、一度購入すればMac、iPhone、iPadのすべてでご利用いただけます。</p></details>
