@@ -72,4 +72,7 @@
   <url><loc>https://corvusdevs.github.io/Playhead/i18n/vi/privacy.html</loc></url>
   <url><loc>https://corvusdevs.github.io/Playhead/i18n/zh-Hans/privacy.html</loc></url>
   <url><loc>https://corvusdevs.github.io/Playhead/i18n/zh-Hant/privacy.html</loc></url>
+  <!-- LOCALIZED_CHANGELOG:START -->
+  <url><loc>https://corvusdevs.github.io/Playhead/changelog.html</loc></url>
+  <!-- LOCALIZED_CHANGELOG:END -->
 </urlset>
