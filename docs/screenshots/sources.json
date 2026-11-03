@@ -1,0 +1,38 @@
+{
+  "appStoreId": 6800165777,
+  "retrievedUTC": "2026-11-03T05:20:52.117459+00:00",
+  "items": [
+    {
+      "asset": "media-check-mac.jpg",
+      "platform": "Mac",
+      "sourceURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/d8/57/18d85732-4036-a976-5ba5-174d4987270f/01-media-check_framed.png/1280x800bb-60.jpg",
+      "sourcePage": "https://apps.apple.com/us/app/id6800165777",
+      "sourceDimensions": [
+        1280,
+        800
+      ],
+      "dimensions": [
+        1280,
+        800
+      ],
+      "bytes": 65165,
+      "sha256": "505b4bf48dfd635603e3d858fcd535bdb0f74ab697174969738f05ce6c5450dc"
+    },
+    {
+      "asset": "media-check-iphone.jpg",
+      "platform": "iPhone",
+      "sourceURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/92/3a/20923a92-db71-9f69-9a7f-5dde17b4acef/01-media-check_framed.png/1320x2868bb.jpg",
+      "sourcePage": "https://apps.apple.com/us/app/id6800165777",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        663,
+        1440
+      ],
+      "bytes": 120548,
+      "sha256": "2c0010508ec73f6546308d975023564be821840ddd92344ae97df406c356a454"
+    }
+  ]
+}

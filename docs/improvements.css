@@ -1,0 +1,11 @@
+/* Media Check is demonstrated with authentic Mac and iPhone App Store images. */
+.media-check-copy{max-width:780px;margin:0 0 30px}
+.media-proof{display:grid;grid-template-columns:minmax(0,3fr) minmax(180px,1fr);gap:28px;align-items:center}
+.media-proof figure{margin:0;min-width:0}
+.media-proof a{display:block;border-radius:16px}
+.media-proof img{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--border)}
+.media-proof figcaption{text-align:center;font-size:.85rem;color:var(--text-secondary);padding:12px 4px}
+.media-proof a:focus-visible{outline:3px solid var(--accent-light);outline-offset:5px}
+@media(max-width:680px){.media-proof{grid-template-columns:1fr;gap:24px}.media-proof-phone{order:-1;width:min(270px,100%);justify-self:center}}
+@media(max-width:520px){nav{padding:10px 14px;gap:10px}.nav-brand{gap:7px;min-width:0}.nav-brand img{width:26px;height:26px}.wordmark{font-size:17px}.nav-right{gap:6px;flex-shrink:0}.lang-btn{font-size:12px;padding:10px 8px;white-space:nowrap;min-height:44px;max-width:112px;overflow:hidden;text-overflow:ellipsis}.nav-cta{font-size:12px;padding:10px 12px;white-space:nowrap;min-height:44px;display:inline-flex;align-items:center;justify-content:center}}
+@media(max-width:360px){.nav-brand .wordmark{display:none}.nav-brand img{width:30px;height:30px}.lang-btn{max-width:116px}}
