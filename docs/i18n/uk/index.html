@@ -61,7 +61,27 @@
     <link rel="alternate" hreflang="zh-Hans" href="https://corvusdevs.github.io/Playhead/i18n/zh-Hans/">
     <link rel="alternate" hreflang="zh-Hant" href="https://corvusdevs.github.io/Playhead/i18n/zh-Hant/">
     <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/Playhead/">
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Playhead", "operatingSystem": "macOS 14, iOS 17", "applicationCategory": "MultimediaApplication", "description": "Дізнайтеся, чи готовий медіафайл, перш ніж він потрапить у програвач, до клієнта або в службу завантаження.\n\nPlayhead перевіряє цілісність, відтворення, покриття доріжок, HDR, сумісність, ризики передавання та геодані у фотографіях. Кожен результат пояснює важливість і пропонує конкретний наступний крок. Усе можна відразу спробувати за допомогою вбудованої перевірки зразків.\n\nПорівнюйте дві версії за важливими змінами: доданими або видаленими доріжками, HDR, сумісністю, якістю, розміром і бітрейтом. Переглядайте докази на часовій шкалі, шукайте будь-яке технічне поле та експортуйте звіти.\n\nPlayhead працює офлайн, без облікового запису, аналітики й відстеження. Файли залишаються на пристрої. Одна покупка охоплює Mac, iPhone та iPad.", "url": "https://corvusdevs.github.io/Playhead/i18n/uk/", "inLanguage": "uk", "offers": {"@type": "Offer", "price": "0.99", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "CorvusDevs", "url": "https://corvusdevs.github.io/"}}</script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Playhead",
+  "operatingSystem": "macOS 14.0+ (Apple Silicon), iOS 17.0+, iPadOS 17.0+",
+  "applicationCategory": "MultimediaApplication",
+  "description": "Дізнайтеся, чи готовий медіафайл, перш ніж він потрапить у програвач, до клієнта або в службу завантаження.\n\nPlayhead перевіряє цілісність, відтворення, покриття доріжок, HDR, сумісність, ризики передавання та геодані у фотографіях. Кожен результат пояснює важливість і пропонує конкретний наступний крок. Усе можна відразу спробувати за допомогою вбудованої перевірки зразків.\n\nПорівнюйте дві версії за важливими змінами: доданими або видаленими доріжками, HDR, сумісністю, якістю, розміром і бітрейтом. Переглядайте докази на часовій шкалі, шукайте будь-яке технічне поле та експортуйте звіти.\n\nPlayhead працює офлайн, без облікового запису, аналітики й відстеження. Файли залишаються на пристрої. Одна покупка охоплює Mac, iPhone та iPad.",
+  "url": "https://corvusdevs.github.io/Playhead/i18n/uk/",
+  "inLanguage": "uk",
+  "offers": {
+    "@type": "Offer",
+    "price": "0.99",
+    "priceCurrency": "USD"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorvusDevs",
+    "url": "https://corvusdevs.github.io/"
+  },
+  "softwareVersion": "1.0"
+}</script>
     <style>
         /* ac-no-horizontal-scroll v1 */
         html, body { overflow-x: clip; max-width: 100%; }
@@ -95,10 +115,10 @@
         .nav-brand span { color: var(--accent-light); }
         .nav-right { display: flex; align-items: center; gap: 14px; }
         .nav-cta {
-            font-size: 14px; font-weight: 600; color: #fff; background: var(--accent);
+            font-size: 14px; font-weight: 600; color: #fff; background: #0668cd;
             padding: 8px 18px; border-radius: 10px; text-decoration: none; transition: background 0.2s;
         }
-        .nav-cta:hover { background: var(--accent-light); }
+        .nav-cta:hover { background: #005bb8; }
         .shot { width: 100%; border-radius: 14px; border: 1px solid var(--border); display: block; }
         .shot-caption { font-size: 14px; color: var(--text-secondary); margin-top: 12px; text-align: center; }
         .split { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; align-items: center; }
@@ -135,11 +155,11 @@
         }
         .hero-cta {
             display: inline-flex; align-items: center; gap: 10px; padding: 16px 36px;
-            background: var(--accent); color: #fff; font-size: 16px; font-weight: 600;
+            background: #0668cd; color: #fff; font-size: 16px; font-weight: 600;
             border-radius: 14px; text-decoration: none; transition: background 0.2s, transform 0.2s;
             box-shadow: 0 10px 30px rgba(10, 132, 255, 0.35);
         }
-        .hero-cta:hover { background: var(--accent-light); transform: translateY(-2px); }
+        .hero-cta:hover { background: #005bb8; transform: translateY(-2px); }
         .hero-free { display: block; font-size: 14px; color: var(--text-secondary); margin-top: 16px; }
 
         .features-grid {
@@ -202,13 +222,19 @@
                        font-size: 14px; text-decoration: none; border-radius: 8px; color: var(--text-secondary); }
         .lang-menu a:hover { background: var(--surface-2); color: var(--text); }
         .lang-menu a.active { color: var(--accent-light); }
+        /* ac-footer-mobile v1 */
+        @media (max-width: 720px) {
+            body { min-height: 0; }
+            footer { padding-bottom: 24px; padding-top: 24px; }
+        }
+        .product-version { display: inline-block; color: var(--text-secondary); margin: 12px; font-size: .85rem; }
     </style>
   <script src="/Playhead/language-router.js"></script>
 </head>
 <body>
 <nav>
     <a href="https://corvusdevs.github.io/" class="nav-brand"><img src="../../icon.png" alt=""><span class="wordmark">Play<span>head</span></span></a>
-    <div class="nav-right"><div class="lang-wrap"><button class="lang-btn" aria-label="Language" onclick="var m=this.nextElementSibling;m.classList.toggle('open');event.stopPropagation();">文A Українська</button><div class="lang-menu"><a href="../../" class=""><img src="../../flags/en.svg" alt="" width="20" height="14" loading="lazy">English</a><a href="../../i18n/ar/" class=""><img src="../../flags/ar.svg" alt="" width="20" height="14" loading="lazy">العربية</a><a href="../../i18n/ca/" class=""><img src="../../flags/ca.svg" alt="" width="20" height="14" loading="lazy">Català</a><a href="../../i18n/cs/" class=""><img src="../../flags/cs.svg" alt="" width="20" height="14" loading="lazy">Čeština</a><a href="../../i18n/da/" class=""><img src="../../flags/da.svg" alt="" width="20" height="14" loading="lazy">Dansk</a><a href="../../i18n/de/" class=""><img src="../../flags/de.svg" alt="" width="20" height="14" loading="lazy">Deutsch</a><a href="../../i18n/el/" class=""><img src="../../flags/el.svg" alt="" width="20" height="14" loading="lazy">Ελληνικά</a><a href="../../i18n/es/" class=""><img src="../../flags/es.svg" alt="" width="20" height="14" loading="lazy">Español</a><a href="../../i18n/es-MX/" class=""><img src="../../flags/es.svg" alt="" width="20" height="14" loading="lazy">Español (MX)</a><a href="../../i18n/fi/" class=""><img src="../../flags/fi.svg" alt="" width="20" height="14" loading="lazy">Suomi</a><a href="../../i18n/fr/" class=""><img src="../../flags/fr.svg" alt="" width="20" height="14" loading="lazy">Français</a><a href="../../i18n/fr-CA/" class=""><img src="../../flags/fr.svg" alt="" width="20" height="14" loading="lazy">Français (CA)</a><a href="../../i18n/he/" class=""><img src="../../flags/he.svg" alt="" width="20" height="14" loading="lazy">עברית</a><a href="../../i18n/hi/" class=""><img src="../../flags/hi.svg" alt="" width="20" height="14" loading="lazy">हिन्दी</a><a href="../../i18n/hr/" class=""><img src="../../flags/hr.svg" alt="" width="20" height="14" loading="lazy">Hrvatski</a><a href="../../i18n/hu/" class=""><img src="../../flags/hu.svg" alt="" width="20" height="14" loading="lazy">Magyar</a><a href="../../i18n/id/" class=""><img src="../../flags/id.svg" alt="" width="20" height="14" loading="lazy">Indonesia</a><a href="../../i18n/it/" class=""><img src="../../flags/it.svg" alt="" width="20" height="14" loading="lazy">Italiano</a><a href="../../i18n/ja/" class=""><img src="../../flags/ja.svg" alt="" width="20" height="14" loading="lazy">日本語</a><a href="../../i18n/ko/" class=""><img src="../../flags/ko.svg" alt="" width="20" height="14" loading="lazy">한국어</a><a href="../../i18n/ms/" class=""><img src="../../flags/ms.svg" alt="" width="20" height="14" loading="lazy">Melayu</a><a href="../../i18n/nb/" class=""><img src="../../flags/nb.svg" alt="" width="20" height="14" loading="lazy">Norsk</a><a href="../../i18n/nl/" class=""><img src="../../flags/nl.svg" alt="" width="20" height="14" loading="lazy">Nederlands</a><a href="../../i18n/pl/" class=""><img src="../../flags/pl.svg" alt="" width="20" height="14" loading="lazy">Polski</a><a href="../../i18n/pt-BR/" class=""><img src="../../flags/pt.svg" alt="" width="20" height="14" loading="lazy">Português (BR)</a><a href="../../i18n/pt-PT/" class=""><img src="../../flags/pt.svg" alt="" width="20" height="14" loading="lazy">Português</a><a href="../../i18n/ro/" class=""><img src="../../flags/ro.svg" alt="" width="20" height="14" loading="lazy">Română</a><a href="../../i18n/ru/" class=""><img src="../../flags/ru.svg" alt="" width="20" height="14" loading="lazy">Русский</a><a href="../../i18n/sk/" class=""><img src="../../flags/sk.svg" alt="" width="20" height="14" loading="lazy">Slovenčina</a><a href="../../i18n/sv/" class=""><img src="../../flags/sv.svg" alt="" width="20" height="14" loading="lazy">Svenska</a><a href="../../i18n/th/" class=""><img src="../../flags/th.svg" alt="" width="20" height="14" loading="lazy">ไทย</a><a href="../../i18n/tr/" class=""><img src="../../flags/tr.svg" alt="" width="20" height="14" loading="lazy">Türkçe</a><a href="../../i18n/uk/" class="active"><img src="../../flags/uk.svg" alt="" width="20" height="14" loading="lazy">Українська</a><a href="../../i18n/vi/" class=""><img src="../../flags/vi.svg" alt="" width="20" height="14" loading="lazy">Tiếng Việt</a><a href="../../i18n/zh-Hans/" class=""><img src="../../flags/zh.svg" alt="" width="20" height="14" loading="lazy">简体中文</a><a href="../../i18n/zh-Hant/" class=""><img src="../../flags/zh.svg" alt="" width="20" height="14" loading="lazy">繁體中文</a></div></div>
+    <div class="nav-right"><div class="lang-wrap"><button class="lang-btn" aria-label="Language" onclick="var m=this.nextElementSibling;m.classList.toggle('open');event.stopPropagation();">文A Українська</button><div class="lang-menu"><a href="../../" class=""><img src="../../flags/en.svg" alt="" width="20" height="14" loading="lazy">English</a><a href="../../i18n/ar/" class=""><img src="../../flags/ar.svg" alt="" width="20" height="14" loading="lazy">العربية</a><a href="../../i18n/ca/" class="">Català</a><a href="../../i18n/cs/" class=""><img src="../../flags/cs.svg" alt="" width="20" height="14" loading="lazy">Čeština</a><a href="../../i18n/da/" class=""><img src="../../flags/da.svg" alt="" width="20" height="14" loading="lazy">Dansk</a><a href="../../i18n/de/" class=""><img src="../../flags/de.svg" alt="" width="20" height="14" loading="lazy">Deutsch</a><a href="../../i18n/el/" class=""><img src="../../flags/el.svg" alt="" width="20" height="14" loading="lazy">Ελληνικά</a><a href="../../i18n/es/" class=""><img src="../../flags/es.svg" alt="" width="20" height="14" loading="lazy">Español</a><a href="../../i18n/es-MX/" class=""><img src="../../flags/es.svg" alt="" width="20" height="14" loading="lazy">Español (MX)</a><a href="../../i18n/fi/" class=""><img src="../../flags/fi.svg" alt="" width="20" height="14" loading="lazy">Suomi</a><a href="../../i18n/fr/" class=""><img src="../../flags/fr.svg" alt="" width="20" height="14" loading="lazy">Français</a><a href="../../i18n/fr-CA/" class=""><img src="../../flags/fr.svg" alt="" width="20" height="14" loading="lazy">Français (CA)</a><a href="../../i18n/he/" class=""><img src="../../flags/he.svg" alt="" width="20" height="14" loading="lazy">עברית</a><a href="../../i18n/hi/" class=""><img src="../../flags/hi.svg" alt="" width="20" height="14" loading="lazy">हिन्दी</a><a href="../../i18n/hr/" class="">Hrvatski</a><a href="../../i18n/hu/" class=""><img src="../../flags/hu.svg" alt="" width="20" height="14" loading="lazy">Magyar</a><a href="../../i18n/id/" class=""><img src="../../flags/id.svg" alt="" width="20" height="14" loading="lazy">Indonesia</a><a href="../../i18n/it/" class=""><img src="../../flags/it.svg" alt="" width="20" height="14" loading="lazy">Italiano</a><a href="../../i18n/ja/" class=""><img src="../../flags/ja.svg" alt="" width="20" height="14" loading="lazy">日本語</a><a href="../../i18n/ko/" class=""><img src="../../flags/ko.svg" alt="" width="20" height="14" loading="lazy">한국어</a><a href="../../i18n/ms/" class=""><img src="../../flags/ms.svg" alt="" width="20" height="14" loading="lazy">Melayu</a><a href="../../i18n/nb/" class=""><img src="../../flags/nb.svg" alt="" width="20" height="14" loading="lazy">Norsk</a><a href="../../i18n/nl/" class=""><img src="../../flags/nl.svg" alt="" width="20" height="14" loading="lazy">Nederlands</a><a href="../../i18n/pl/" class=""><img src="../../flags/pl.svg" alt="" width="20" height="14" loading="lazy">Polski</a><a href="../../i18n/pt-BR/" class=""><img src="../../flags/pt-BR.svg" alt="" width="20" height="14" loading="lazy">Português (BR)</a><a href="../../i18n/pt-PT/" class=""><img src="../../flags/pt-PT.svg" alt="" width="20" height="14" loading="lazy">Português</a><a href="../../i18n/ro/" class=""><img src="../../flags/ro.svg" alt="" width="20" height="14" loading="lazy">Română</a><a href="../../i18n/ru/" class=""><img src="../../flags/ru.svg" alt="" width="20" height="14" loading="lazy">Русский</a><a href="../../i18n/sk/" class=""><img src="../../flags/sk.svg" alt="" width="20" height="14" loading="lazy">Slovenčina</a><a href="../../i18n/sv/" class=""><img src="../../flags/sv.svg" alt="" width="20" height="14" loading="lazy">Svenska</a><a href="../../i18n/th/" class=""><img src="../../flags/th.svg" alt="" width="20" height="14" loading="lazy">ไทย</a><a href="../../i18n/tr/" class=""><img src="../../flags/tr.svg" alt="" width="20" height="14" loading="lazy">Türkçe</a><a href="../../i18n/uk/" class="active"><img src="../../flags/uk.svg" alt="" width="20" height="14" loading="lazy">Українська</a><a href="../../i18n/vi/" class=""><img src="../../flags/vi.svg" alt="" width="20" height="14" loading="lazy">Tiếng Việt</a><a href="../../i18n/zh-Hans/" class=""><img src="../../flags/zh-Hans.svg" alt="" width="20" height="14" loading="lazy">简体中文</a><a href="../../i18n/zh-Hant/" class=""><img src="../../flags/zh-Hant.svg" alt="" width="20" height="14" loading="lazy">繁體中文</a></div></div>
         <a href="#buy" class="nav-cta">Отримати Playhead</a>
     </div>
 </nav>
@@ -218,7 +244,7 @@
     <h1>Перевірка медіа до передавання</h1>
     <p class="subtitle">Знайдіть проблеми відтворення, доріжок, HDR, приватності й цілісності до передавання. Playhead пояснить причину та виправлення.</p>
     <a href="#buy" class="hero-cta">Отримати Playhead, $0.99</a>
-    <span class="hero-free">macOS 14 або новіша версія, iOS 17 або новіша версія. Один платіж, без передплати.</span>
+    <span class="hero-free">macOS 14 (M1+) або новіша версія, iOS/iPadOS 17 або новіша версія. Один платіж, без передплати.</span>
 </section>
 
 <section class="block">
@@ -344,7 +370,8 @@
     <div class="container">
         <h2 class="section-title">Playhead</h2>
         <p class="lede">Один платіж. Mac, iPhone та iPad. Ніякі дані не залишають вашого пристрою.</p>
-        <a href="#" class="hero-cta">Скоро в App Store</a>
+        <a href="https://apps.apple.com/app/id6800165777" class="hero-cta" data-product-store>Отримати Playhead</a>
+        <span class="product-version" dir="ltr">v<span data-product-field="version">1.0</span></span>
         <span class="hero-free">$0.99, universal purchase</span>
     </div>
 </section>

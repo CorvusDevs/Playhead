@@ -1,0 +1,25 @@
+{
+  "slug": "Playhead",
+  "name": "Playhead",
+  "appStoreId": 6800165777,
+  "version": "1.0",
+  "releaseDate": "2026-09-28T06:40:53Z",
+  "originalReleaseDate": "2026-09-26T07:00:00Z",
+  "platforms": [
+    "macOS",
+    "iPhone",
+    "iPad"
+  ],
+  "requirements": {
+    "macOS": "14.0",
+    "iOS": "17.0",
+    "iPadOS": "17.0"
+  },
+  "store": {
+    "kind": "app-store",
+    "label": "App Store",
+    "url": "https://apps.apple.com/app/id6800165777"
+  },
+  "metadataSource": "https://itunes.apple.com/lookup?id=6800165777&country=us",
+  "sourceCatalog": "https://corvusdevs.github.io/apps.json"
+}
